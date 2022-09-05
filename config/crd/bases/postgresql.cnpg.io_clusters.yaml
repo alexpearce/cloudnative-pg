@@ -2071,6 +2071,7 @@ spec:
                     default: 300
                     description: Standby will update the status of the local replication
                       slots every `updateInterval` seconds.
+                    minimum: 0
                     type: integer
                 type: object
               resources:
